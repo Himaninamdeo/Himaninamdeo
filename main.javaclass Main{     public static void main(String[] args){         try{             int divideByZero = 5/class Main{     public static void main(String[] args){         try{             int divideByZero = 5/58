@@ -1,0 +1,15 @@
+class main{
+    public static void main(String[] args){
+        try{
+            int divideByZero=5/2;
+        }
+        catch(ArithmeticException e){
+            System.out.println("ArithmeticException" + err.getMessage());
+        }
+        finally{
+            System.out.println("This is the finally block");
+        }
+    }
+}
+
+    
